@@ -14,7 +14,7 @@ if not username or not password:
 
 print("Conectando a Dexcom (Servidor Europeo)...")
 try:
-    dexcom = Dexcom(username=username, password=password, ous=True)
+    dexcom = Dexcom(username=username, password=password, region="ous")
 except Exception as e:
     print(f"Error al conectar con Dexcom: {e}")
     exit(1)
