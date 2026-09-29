@@ -35,3 +35,5 @@ jobs:
         with:
           commit_message: "Auto-actualización de datos de glucosa [skip ci]"
           file_pattern: "historial_y_directo.csv"
+
+          
